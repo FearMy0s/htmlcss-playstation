@@ -10,7 +10,7 @@
 .lens{
     width: 30px;
  }
- .hero img{
+ .jumbo-png{
      width: 100%;
  }
 
@@ -24,11 +24,17 @@
     margin-right: 20px;
     border-radius: 20px;
 }
+.btn-hero{
+    background-color: rgb(253, 111, 10);
+    width: 200px;
+    height: 50px;
+}
 
 /*button*/
 .navbar{
     margin-top: 50px;
     position: fixed;
+    z-index: 10;
 }
 
 .trademark{
@@ -37,6 +43,7 @@
     background-color: black;
     justify-content: flex-end;
     height: 50px;
+    z-index: 10;
 }
 li{
     list-style: none;
@@ -46,19 +53,39 @@ li{
     font-size: 20px;
     margin-left: 20px;
 }
-.hero{
-    padding-top: 120px;
-}
-.jumbo{
+.hero-container{
     position: relative;
+    top: 120px;
+}
+.hero-container::after{
+    content: "";
+    display: block;
+    padding-top:48.25%;
+}
+
+.jumbo-png{
+    position: absolute;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+
 }
 .game-title{
     position: absolute;
-    top: 60;
-    left: 40;
-    width: 50px;
+    top: 40%;
+    left: 3%;
+    width: 250px;
     height: 50px;
-
 }
+.hero-row{
+    position: absolute;
+    top: 48%;
+    left: 3%;
+    color: white;
+}
+.hero-row , .col-12{
+    margin-bottom: 20px;
+}
+
