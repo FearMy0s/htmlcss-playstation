@@ -40,6 +40,9 @@
     border-radius: 20px;
     margin-top: 20px;
 }
+.btn-hardware{
+    width: 150px;
+}
 
 /*button*/
 .navbar{
@@ -95,11 +98,12 @@ li{
     font-size: 20px;
     color: grey;
 }
-.ps5-showcase h3{
+h2{
     margin-bottom: 50px;
-    font-size: 60px;
+    font-size: 50px;
+
 }
-.ps5-presentation{
+.text{
     text-align: center;
 }
 .ps5-showcase h6{
@@ -110,11 +114,11 @@ li{
     padding-left: 50px;
 }
 .ps5-showcase img{
-    width: 100%;
-}
-.section-hardware img{
     width: 80%;
-    margin-left:50%;
+}
+.section-hardware-ps5 img{
+    width: 80%;
+    margin-left:70%;
 }
 .main-container{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -135,4 +139,11 @@ li{
     padding-top: 50px;
     background-color: black;
     color: white;
+}
+.section-hardware{
+    margin-top: 50px;
+    margin-bottom: 50px;;
+}
+.section-hardware img{
+    width: 100%;
 }
