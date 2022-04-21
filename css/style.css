@@ -29,13 +29,23 @@
     width: 200px;
     height: 50px;
     margin-top: 50px;
+    font-size: 20px;
+}
+.btn-ps5{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 /*button*/
 .navbar{
     margin-top: 50px;
     position: fixed;
-    z-index: 10;
+    top:0;
 }
 
 .trademark{
@@ -44,7 +54,7 @@
     background-color: black;
     justify-content: flex-end;
     height: 50px;
-    z-index: 10;
+    top:0;
 }
 li{
     list-style: none;
@@ -54,21 +64,75 @@ li{
     font-size: 20px;
     margin-left: 20px;
 }
-.hero-container{
-padding-top: 120px;
-background-image: url(img/jumbo-bg.png);
-width: 100%;
-height: 100%;
+.game-title{
+    width: 300px;
+    height: 80px;
 }
-
-
+.hero-container{
+    margin-top: 5%;
+    background-image: url(../img/jumbo-bg.png);
+    height: 100%;
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    color: white;
+    font-size: 30px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.hero   span{
+    font-size: 20px;
+}
 .hero-row , .col-12{
     margin-bottom: 20px;
 }
-.container-thumb img{
-    height: 150px;
-    width: 300px;
-    border-radius: 10px;
+.section-games img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+.ps5-showcase span{
+    font-size: 20px;
+    color: grey;
+}
+.ps5-showcase h3{
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+.ps5-presentation{
+    text-align: center;
+}
+.ps5-showcase h6{
+    color: blue;
+}
+.ps5-text{
+    padding-top: 15%;
+    padding-left: 50px;
+}
+.ps5-showcase img{
+    width: 100%;
+}
+.section-hardware img{
+    width: 80%;
+    margin-left:50%;
+}
+.main-container{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    margin-bottom: 0;
+}
+.main-container img{
+    width: 200px;
+    height: 100px;
+}
+.main-game{
+    width: 60%;
 
 }
-
+.main-game span{
+    font-size: 20px;
+}
+.new-games{
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+}
