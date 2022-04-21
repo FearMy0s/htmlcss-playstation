@@ -43,6 +43,14 @@
 .btn-hardware{
     width: 150px;
 }
+.btn-psplus{
+    background-color: gainsboro;
+    color: blue;
+}
+.btn-now{
+    background-color: white;
+    color: black;
+}
 
 /*button*/
 .navbar{
@@ -63,7 +71,7 @@ li{
     list-style: none;
 }
 .nav-link{
-    color: black;
+    color: rgb(117, 116, 116);
     font-size: 20px;
     margin-left: 20px;
 }
@@ -114,11 +122,14 @@ h2{
     padding-left: 50px;
 }
 .ps5-showcase img{
-    width: 80%;
+    width: 100%;
+}
+.row-ps5{
+    display: flex;
+    justify-content: center;
 }
 .section-hardware-ps5 img{
-    width: 80%;
-    margin-left:70%;
+    width: 100%;
 }
 .main-container{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -130,7 +141,6 @@ h2{
 }
 .main-game{
     width: 60%;
-
 }
 .main-game span{
     font-size: 20px;
@@ -147,3 +157,57 @@ h2{
 .section-hardware img{
     width: 100%;
 }
+.playstation-plus{
+    background-color: rgb(190, 188, 187);
+}
+.plus-logo img{
+    width: 300px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.psplus-1{
+    padding-top: 15%;
+    margin-bottom: 50px;
+    width: 50%;
+}
+.ps-plus-2{
+    width: 80%;
+}
+.ps-now{
+    background-color: darkblue;
+    color: white;
+}
+.ps-now img{
+    width: 80%;
+}
+.follow-us{
+    margin-top: 50px;
+    text-align: center;
+}
+.follow-us h2{
+    font-size: 50px;
+}
+.follow-us img{
+    width: 80%;
+    height: 90%;
+}
+.footer{
+    background-color: blue;
+    color: white;
+}
+.footer img{
+    margin-left: 5%;
+}
+.sony-logo{
+    margin-top: 10%;
+    margin-bottom: 3%;
+    width: 150px;
+}
+.globe{
+    width: 20px;
+    height: 20px;
+}
+.list-row{
+    margin-top: 10%;
+}
+
